@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: RedHatText;
+  src: url("../fonts/RedHatText-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: RedHatText;
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */

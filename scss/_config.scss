@@ -1,0 +1,29 @@
+// Font
+@font-face {
+  font-family: RedHatText;
+  src: url("../fonts/RedHatText-Bold.ttf");
+}
+
+// css resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: RedHatText;
+  font-size: 14px;
+}
+
+// scss variables
+
+$grayishBlue: hsl(237, 18%, 59%);
+$softRed: hsl(345, 95%, 68%);
+$white: hsl(0, 0%, 100%);
+$darkDesaturatedBlue: hsl(236, 21%, 26%);
+$veryDarkBlue: hsl(235, 16%, 14%);
+$veryDarkBlue2: hsl(234, 17%, 12%);

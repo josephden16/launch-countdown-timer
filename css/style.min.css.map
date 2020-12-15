@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACCA,UAAU,CACR,WAAW,CAAE,UAAU,CACvB,GAAG,CAAE,mCAAmC,CAI1C,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,IAAI,CAAE,IAAI,AAAC,CACT,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACtB,WAAW,CAAE,UAAU,CACvB,SAAS,CAAE,IAAI,CAChB",
     "sources": [
-        "../scss/style.scss"
+        "../scss/style.scss",
+        "../scss/_config.scss"
     ],
     "names": [],
     "file": "style.min.css"
