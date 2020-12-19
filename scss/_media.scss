@@ -1,0 +1,27 @@
+@media screen and (min-width: 720px) {
+  .coming-soon {
+    min-width: 100%;
+    font-size: 1.6em;
+  }
+
+  .countdown {
+    gap: 30px;
+  }
+
+  .countdown__box__time {
+    background: $veryDarkBlue;
+    padding: 28px;
+    width: 125px;
+    text-align: center;
+    font-size: 44px;
+    box-shadow: 0 9px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  .time {
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    margin: auto;
+    text-align: center;
+  }
+}

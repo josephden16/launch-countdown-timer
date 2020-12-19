@@ -3,6 +3,14 @@
   font-family: RedHatText;
   src: url("../fonts/RedHatText-Bold.ttf");
 }
+// scss variables
+
+$grayishBlue: hsl(237, 18%, 59%);
+$softRed: hsl(345, 95%, 68%);
+$white: hsl(0, 0%, 100%);
+$darkDesaturatedBlue: hsl(236, 21%, 26%);
+$veryDarkBlue: hsl(235, 16%, 14%);
+$veryDarkBlue2: hsl(234, 17%, 12%);
 
 // css resets
 * {
@@ -17,13 +25,6 @@ html, body {
   box-sizing: border-box;
   font-family: RedHatText;
   font-size: 14px;
+  background: $veryDarkBlue2;
+  background-image: url("../images/bg-stars.svg");
 }
-
-// scss variables
-
-$grayishBlue: hsl(237, 18%, 59%);
-$softRed: hsl(345, 95%, 68%);
-$white: hsl(0, 0%, 100%);
-$darkDesaturatedBlue: hsl(236, 21%, 26%);
-$veryDarkBlue: hsl(235, 16%, 14%);
-$veryDarkBlue2: hsl(234, 17%, 12%);

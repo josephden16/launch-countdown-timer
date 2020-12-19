@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/style.min.css">
   <title>Frontend Mentor | Launch countdown timer</title>
 </head>
+
 <body>
-  <div class="attribution">
+  <h1 class="coming-soon">
+    we're launching soon
+  </h1>
+  <div class="countdown">
+    <div class="countdown__box">
+      <div id="days" class="countdown__box__time"></div>
+      <div class="time">days</div>
+    </div>
+    <div class="countdown__box">
+      <div id="hours" class="countdown__box__time"></div>
+      <div class="time">hours</div>
+    </div>
+    <div class="countdown__box">
+      <div id="minutes" class="countdown__box__time"></div>
+      <div class="time">minutes</div>
+    </div>
+    <div class="countdown__box">
+      <div id="seconds" class="countdown__box__time"></div>
+      <div class="time">seconds</div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="social">
+      <img class="social__img" src="./images/icon-facebook.svg" alt="facebook">
+      <img class="social__img" src="./images/icon-pinterest.svg" alt="pinterest">
+      <img class="social__img" src="./images/icon-instagram.svg" alt="instagram">
+    </div>
+  </footer>
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
   <script src="./script.js"></script>
 </body>
+
 </html>
